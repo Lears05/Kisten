@@ -1,0 +1,58 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  line-height: 1.6em;
+  margin: 0;
+  background: rgb(219 219 219);
+}
+
+/*Alineación del contenido*/
+.container {
+  width: 85%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+p {
+  margin-bottom: 1.6em;
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+
+/* Footer */
+.footer {
+  background: hsl(356deg 82% 23% / 85%);
+  padding: 4rem 0;
+  margin-top: 0rem;
+  color: white !important; 
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
+  
+  h2 {
+    font-size: 25px;
+    margin: 0 0 8px 0;
+  }
+  
+  .contacto {
+    line-height: 1.55;
+  }
+
+  /* Alineacion del nav */
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.foot-last {
+  width: 100%;
+  border-top: 1px solid white;
+  margin: 10px 0;
+}
+
+.foot-last #instagram, #facebook, #whatsapp{
+  float: right;
+  padding: 0 3px 0 1px;
+}
